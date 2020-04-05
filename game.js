@@ -5,19 +5,8 @@
 
 /*///////////////////////////////////////////
 
-Fighting Mania 2.0 
-
-Making an online game was just like a dream to me. And only those who have made their dreans come true, know, how it feels when it truly comes. Now I am feeling like I can do anything. Whatever comes in my mind, I think I can implement via codes. I hope I'll be able to keep it up. Hopefully, no quiz this time (because of having no time). See you next time. And I must, must, obviously thank my dog bro (Raj - Rick Grimes) to help me out test the code. Thanks man. May your phone lives forever. 😐
-            
-            -- Arb
-            -- Dhaka, Bangladesh
-            -- 03-04-2020
-
-This is my first ever try to make a fighting game! Hope y'all will like it! Thanks!
-
-    Name : FIGHTING MANIA
-    Date : 06 - 09 - 2019
-            -- Arb
+            Author: Arb Rahim Badsa
+            Publication Date: 03-04-2020
             
 //////////////////////////////////////////*/
 
