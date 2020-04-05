@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fighting Mania - Arb</title>
+        <script src="game.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/node-uuid/1.4.8/uuid.js"></script>
+        <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDyG4QthJsPNzvXKEu0YPbZuGBleK9RYOQ",
+    authDomain: "fighting-mania-ef780.firebaseapp.com",
+    databaseURL: "https://fighting-mania-ef780.firebaseio.com",
+    projectId: "fighting-mania-ef780",
+    storageBucket: "fighting-mania-ef780.appspot.com",
+    messagingSenderId: "839403028619",
+    appId: "1:839403028619:web:d23375eb0ff4dffad1548e",
+    measurementId: "G-XWJB3S5VRZ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    </head>
+    <body>
+        
+        <p id="mur">Murder : <span id="m">0</span></p>
+        <p id="online">Online: <span id="onln">0</span></p>
+        <div id="gm">Game Over! <button id="restart">Restart</button></div>
+        
+        <div id="splash">
+            <div class="bg">
+                <p class="text">Fighting Mania <sup>2.0</sup></p>
+                <input placeholder="Enter your name" id="name" type="text">
+                <button id="startGame">Start</button>
+            </div>
+        </div>
+        
+        <p id="load">Loading...</p>
+        
+    </body>
+</html>
